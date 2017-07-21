@@ -1,0 +1,118 @@
+.color-green{
+	background-color: #028e81;
+	padding: 80px;
+}
+
+body{
+	background-color: #e6e6e6;
+	height: 700px;
+}
+
+.chat{
+	margin-top: -100px;
+	background-color: whitesmoke;
+	color: gray;
+	padding: 0;
+}
+
+.input-1{
+	background-color: white;
+	padding: 10px;
+	margin-left: 0;
+}
+
+.caja-todo{
+	height: 550px;
+	padding: 0;
+}
+
+.nav-chat{
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #e6e6e6;
+	height: 65px;
+}
+
+.menu-1{
+	border-right: 1px solid #e6e6e6;
+	width: 370px;
+}
+.menu-1 img{
+	margin-top: 5px;
+	width: 15%;
+	border-radius: 100%;
+}
+
+.menu-2 img{
+	margin-top: 5px;
+	width: 25%;
+	border-radius: 100%;
+}
+
+.conversaciones{
+	border-right: 1px solid #e6e6e6;
+}
+
+.conversacion{
+	padding-top: 10px;
+	background-image: url(../img/chat-panel-bg.png);
+	height: inherit;
+	width: 785px;
+}
+.cnv-1, .cnv-2, .cnv-3, .cnv-4, .cnv-5, .cnv-6, .cnv-7, .cnv-8, .cnv-9{
+	border-bottom: 1px solid #e6e6e6;
+}
+.cnv-1{
+	border-top: 1px solid #e6e6e6;
+}
+.cnv img{
+	width: 40px;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+.cnv p{
+	margin: 0;
+}
+
+.texto-conversacion{
+	height: 450px;
+}
+
+.texto-ingresado{
+	width: auto;
+	border-radius: 7px;
+	float: right;
+	color: black;
+	background-color: #b8ecb9;
+	padding: 2px 5px;
+	display: block;
+	z-index: 9999;
+}
+
+.texto-default{
+	width: auto;
+	border-radius: 7px;
+	float: left;
+	color: black;
+	background-color: white;
+	padding: 2px 5px;
+	display: block;
+}
+
+.texto-ingresado p, .texto-default p{
+	margin: 0 0 0;
+	padding: 2px 5px;
+	display: inline-block;
+}
+
+.persona{
+	margin-left: -180px;
+}
+
+.persona p{
+	margin: 0 0 0;
+}
+
+.fa-comment{
+	cursor: pointer;
+}
